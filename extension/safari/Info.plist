@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>TrustChain</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.trustchain.safari-extension</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>TrustChain</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>10.12</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2026. All rights reserved.</string>
+    <key>NSPrincipalClass</key>
+    <string>SafariExtensionHandler</string>
+    <key>SFSafariContentScript</key>
+    <array>
+        <dict>
+            <key>SFSafariContentScriptLocation</key>
+            <string>content-script.js</string>
+        </dict>
+    </SFSafariContentScript>
+    <key>SFSafariToolbarItem</key>
+    <dict>
+        <key>SFSafariToolbarItemIdentifier</key>
+        <string>trustchain-toolbar-item</string>
+        <key>SFSafariToolbarItemImage</key>
+        <string>toolbar-icon.png</string>
+        <key>SFSafariToolbarItemLabel</key>
+        <string>TrustChain</string>
+    </dict>
+</dict>
+</plist>
